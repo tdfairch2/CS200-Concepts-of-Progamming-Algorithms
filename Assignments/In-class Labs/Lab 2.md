@@ -1,4 +1,4 @@
-# CS 200 Lab 2
+# CS 200 Lab 2: Recipe
 
 ## Introduction
 
