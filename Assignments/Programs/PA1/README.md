@@ -120,4 +120,56 @@ Display the current value of **m_balance**.
 ![Main Menu](images/img5.png)
 ![Main Menu](images/img6.png)
 
+---
 
+## Grading Rubric
+
+<table>
+	<tr>
+		<th>Percentage</th>
+		<th>Feature</th>
+		<th>Description</th>
+	</tr>
+	
+	<tr>
+		<td> 5% </td>
+		<td> Code compiles </td>
+		<td> </td>
+	</tr>
+	
+	<tr>
+		<td> 5% </td>
+		<td> Clean code </td>
+		<td> Code is easy to read, consistently indented, descriptive variable names used. </td>
+	</tr>
+	
+	<tr>
+		<td> 10% </td>
+		<td> Start() </td>
+		<td> </td>
+	</tr>
+	
+	<tr>
+		<td> 25% </td>
+		<td> MainMenu() </td>
+		<td> Menu is displayed cleanly, user input is obtained, program flow is branched based on user input. </td>
+	</tr>
+	
+	<tr>
+		<td> 25% </td>
+		<td> Deposit() </td>
+		<td> Clear prompt for dollar amount, getting user input for amount, error checking for valid amount, adjusting m_balance properly. </td>
+	</tr>
+	
+	<tr>
+		<td> 25% </td>
+		<td> Withdraw() </td>
+		<td> Clear prompt for dollar amount, getting user input for amount, error checking for valid amount, adjusting m_balance properly. </td>
+	</tr>
+	
+	<tr>
+		<td> 10% </td>
+		<td> ViewBalance() </td>
+		<td> Display the value of m_balance with label. </td>
+	</tr>
+</table>
