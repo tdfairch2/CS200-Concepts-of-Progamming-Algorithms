@@ -134,7 +134,7 @@ Display the current value of **m_balance**.
 	<tr>
 		<td> 5% </td>
 		<td> Code compiles </td>
-		<td> </td>
+		<td> Code should build! How are you even testing if you can't build it? </td>
 	</tr>
 	
 	<tr>
@@ -146,7 +146,7 @@ Display the current value of **m_balance**.
 	<tr>
 		<td> 10% </td>
 		<td> Start() </td>
-		<td> </td>
+		<td> Initializing variable m_balance, calling MainMenu() function. </td>
 	</tr>
 	
 	<tr>
