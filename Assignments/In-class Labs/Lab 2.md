@@ -12,6 +12,8 @@ Turn in the source files (.cpp, .hpp) once finished.
 * Output (cout)
 * Input (cin)
 
+---
+
 ## Setting up your project
 
 ### Visual Studio
@@ -43,6 +45,8 @@ Paste the following into your .cpp file to start with:
     {
         return 0;
     }
+    
+---
 
 ## Cookies
 
@@ -58,10 +62,86 @@ Here are the ingredients for sugar cookies:
 
 Using the **cout** command, output the ingredient list above.
 
+Test the program.
+
 ### Sample output:
 
 ![Screenshot](images/cl2-00.png)
 
+---
 
+## Step 2: Store amounts in variables
 
+1. Create variables for the following. These should be **floats** or **doubles**:
+
+    1. teaspoons of baking soda
+    2. teaspoons of baking powder
+    3. cups of butter
+    4. cups of white sugar
+    5. amount of eggs
+
+2. Store the default ingredient amounts in these variables.
+(Use "0.5" instead of 1/2)
+
+3. Replace the hard-coded ingredient amounts with the variables
+so that they can be tweaked and the program will update the amounts.
+
+4. Test the program to make sure it still works.
+
+---
+
+## Step 3: Allow ratios
+
+1. Create a variable called **ratio**. It should be a float or a double.
+
+2. Ask the user how many batches they want to make, then store their input into **ratio**.
+( 0.5 = half, 2.0 = double, 1.0 = normal )
+
+3. Update the ingredient display, this time adjusting each ingredient by the ratio.
+
+### Sample output:
+
+![Screenshot](images/cl2-01.png)
+
+![Screenshot](images/cl2-02.png)
+
+---
+
+## Step 4: Correct English
+
+Update the ingredient output so that:
+
+1. If the amount of that ingredient is one unit, display "teaspoon", "cup", etc.
+2. Otherwise, display "teaspoons", "cups", etc.
+
+Remember to update "egg" vs. "eggs" as well,
+and the amount should be checked after the ratio is applied!
+
+### Sample output:
+
+![Screenshot](images/cl2-03.png)
+
+![Screenshot](images/cl2-04.png)
+
+---
+
+## Optional: Cleanup
+
+If your code has a lot of redundancy / duplicate code, how might you go about cleaning it up?
+
+For example: If you have completely different **cout** statements
+in the if / else statements, how can you boil it down so there
+is no repeated language?
+
+* If you're comfortable with functions, you could write a function 
+called "DisplayIngredient"
+that has the input "amount", "measurement", and "ingredient",
+and formats those and displays them.
+
+* If you're comfortable with arrays, you could store each ingredient
+amount in an array, and use a for loop to display each amount.
+
+* If you're comfortable with classes, an array of classes
+would be useful, since the class could contain the 
+ingredient name and the measurement name.
 
