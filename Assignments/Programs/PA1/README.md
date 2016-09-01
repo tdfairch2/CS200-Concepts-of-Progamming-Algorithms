@@ -60,10 +60,10 @@ Within the while loop:
 1. Display the text:
 
 	BANK OF JCCC
-	1. Deposit
-	2. Withdraw
-	3. View Balance
-	4. Quit
+	1 Deposit
+	2 Withdraw
+	3 View Balance
+	4 Quit
 	
 	Choice: 
 
@@ -88,6 +88,27 @@ Within the while loop:
 
 ### void BankProgram::Deposit()
 
+1. Display a message, asking the user how much they want to deposit.
+2. Create a **float** variable named **amount**.
+3. Get the user's input with **cin** and store it in **amount**.
+4. Check to see if the amount is valid:
+	1. If the amount is less than 0, it is invalid. Display an error message.
+	2. Otherwise, add the **amount** to **m_balance**.
+
 ### void BankProgram::Withdraw()
 
+1. Display a message, asking the user how much they want to withdraw.
+2. Create a **float** variable named **amount**.
+3. Get the user's input with **cin** and store it in **amount**.
+4. Check to see if the amount is valid:
+	1. If the amount is less than 0, it is invalid. Display an error.
+	2. If the amount is greater than the value of m_balance, it is invalid. Display an error.
+	3. Otherwise, subtract **amount** from **m_balance**.
+
 ### void BankProgram::ViewBalance()
+
+Display the current value of **m_balance**.
+
+---
+
+## Sample Output
