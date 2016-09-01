@@ -112,3 +112,12 @@ Display the current value of **m_balance**.
 ---
 
 ## Sample Output
+
+![Main Menu](images/img1.png)
+![Main Menu](images/img2.png)
+![Main Menu](images/img3.png)
+![Main Menu](images/img4.png)
+![Main Menu](images/img5.png)
+![Main Menu](images/img6.png)
+
+
