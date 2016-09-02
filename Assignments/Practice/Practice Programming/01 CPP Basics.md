@@ -141,24 +141,24 @@ Use **cout** to display information to the user, and **cin** to retrieve informa
 
 ## Program 4
 
-#include <iostream>
-using namespace std;
+    #include <iostream>
+    using namespace std;
 
-int main()
-{
-    float price;
-    float tax;
-    float pricePlusTax;
-    
-    cout << "What is the price? ";
-    cin >> price;
-    
-    cout << "What is the tax? ";
-    cin >> tax;
-    
-    pricePlusTax = price + price * tax;
-    
-    cout << "Price plus tax: " << pricePlusTax << endl;
-    
-    return 0;
-}
+    int main()
+    {
+        float price;
+        float tax;
+        float pricePlusTax;
+        
+        cout << "What is the price? ";
+        cin >> price;
+        
+        cout << "What is the tax? ";
+        cin >> tax;
+        
+        pricePlusTax = price + price * tax;
+        
+        cout << "Price plus tax: " << pricePlusTax << endl;
+        
+        return 0;
+    }
