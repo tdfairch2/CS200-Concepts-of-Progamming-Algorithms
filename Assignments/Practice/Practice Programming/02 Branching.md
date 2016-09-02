@@ -33,6 +33,26 @@ Variables, Data Types, Input/Output, and Arithmetic
 
 10. Display the value of **pricePlusTax** to the user.
 
+## Program 2: Generations
+
+1. Declare a variable called **birthYear**, whose type is an **integer**.
+
+2. Declare a variable called **generation**, whose type is a **string**.
+
+2. Display the message to the user: "What year were you born?"
+
+3. If birthYear is between [1901 and 1924), set **generation** to "Greatest Generation".
+
+4. If birthYear is between [1924 and 1946), set **generation** to "Silent Generation".
+
+5. If birthYear is between [1946 and 1965), set **generation** to "Baby Boomer".
+
+6. If birthYear is between [1965 and 1982), set **generation** to "Generation X".
+
+7. If birthYear is between [1982 and 2000), set **generation** to "Millennials".
+
+8. Display the message "Generation:", and then the value of **generation**.
+
 ---
 
 # Solutions
@@ -72,3 +92,42 @@ Variables, Data Types, Input/Output, and Arithmetic
         return 0;
     }
 
+## Program 2
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    int main()
+    {
+        int birthYear;
+        string generation;
+        
+        cout << "What year were you born? ";
+        cin >> birthYear;
+        
+        if ( birthYear >= 1901 && birthYear < 1924 )
+        {
+            generation = "Greatest Generation";
+        }
+        else if ( birthYear >= 1924 && birthYear < 1946 )
+        {
+            generation = "Silent Generation";
+        }
+        else if ( birthYear >= 1946 && birthYear < 1965 )
+        {
+            generation = "Baby Boomer";
+        }
+        else if ( birthYear >= 1965 && birthYear < 1982 )
+        {
+            generation = "Generation X";
+        }
+        else if ( birthYear >= 1982 && birthYear < 2000 )
+        {
+            generation = "Millennials";
+        }
+        
+        cout << "Generation: " << generation << endl;
+        
+        return 0;
+    }
